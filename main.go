@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"main/anotherpkg"
 	"main/app"
+	"main/dbFunc"
 )
 
 func Workflow() {
@@ -14,7 +15,7 @@ func Workflow() {
 	app.Discord()
 	// Using var based on the maths Addtion function
 	var data2 = app.Addition(400, 2)
-
+	dbFunc.CreateDB()
 	anotherpkg.DryRun()
 	// fmt.Println prints to terminal
 	fmt.Println(data)
