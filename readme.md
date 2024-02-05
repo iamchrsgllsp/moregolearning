@@ -9,5 +9,6 @@ More thorough learning on Notion: LINK
   - difference between buffered and unbuffered channels
 - building out database routes - simple CRUD
   - set up more complex queries and passing vars into the query
+  - use it in real application
 
 
