@@ -26,17 +26,16 @@ func DbActions() {
 	dbFunc.CreateDB()
 	dbFunc.AddtoDB("Raidy")
 	dbFunc.AddtoDB("Chris")
-  dbFunc.AddtoDB("Goose")
-  dbFunc.AddtoDB("Bun")
-  dbFunc.AddtoDB("Dave")
-  time.Sleep(10)
+	dbFunc.AddtoDB("Goose")
+	dbFunc.AddtoDB("Bun")
+	dbFunc.AddtoDB("Dave")
+	time.Sleep(10)
 	dbFunc.ReadDB()
 }
 
 func main() {
 	// main is entry point to programme - then we run our actions
 	Workflow()
-  DbActions()
-	
+	DbActions()
 
 }
